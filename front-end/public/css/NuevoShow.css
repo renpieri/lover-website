@@ -1,0 +1,12 @@
+.section-form {
+    width: 60%;
+    margin: auto;
+}
+
+
+@media (max-width: 576px){
+    .section-form {
+        width: 80%;
+
+    }
+}

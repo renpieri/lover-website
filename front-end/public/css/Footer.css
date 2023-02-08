@@ -1,0 +1,96 @@
+footer {
+    background: url('../img/footer-lover-wide.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer h2{
+    font-size: 1.5rem;
+}
+
+footer form {
+    width: 30%;
+}
+
+.redes {
+    width: 30%;
+}
+
+.redesUl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redesUl li{
+    padding: 1em;
+}
+
+
+@media (min-width: 1201px) and (max-width: 1600px){
+    footer {
+        background: url('../img/footer-lover-1600.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
+@media (max-width: 1200px){
+    footer {
+        background: url('../img/footer-lover-1200.jpg');
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    footer form {
+        width: 50%;
+    }
+    
+    .redes {
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 768px){
+    footer {
+        background: url('../img/footer-lover-tablet.jpg');
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+}
+@media (max-width: 576px){
+    footer {
+        background: url('../img/footer-lover-mobile.jpg');
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .redesUl {
+        flex-direction: row;
+    }
+    footer form {
+        width: 80%;
+    }
+    
+    .redes {
+        width: 90%;
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+
+}

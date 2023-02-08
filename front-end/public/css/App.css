@@ -1,0 +1,85 @@
+
+header {
+    height: 100vh;
+    background: url('../img/header-lover-wide.jpg');
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sp-yt {
+    position: absolute;
+    bottom: 2em;
+}
+
+
+.sp-yt a {
+    width: 150px;
+}
+.sp-yt .ig {
+    width: 170px;
+}
+.sp-yt a img{
+    padding: 1em;
+}
+
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    header {
+        background: url('../img/header-lover-1600.jpg');
+        background-position:top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    header {
+        background: url('../img/header-lover-1200.jpg');
+        background-position:top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    header {
+        background: url('../img/header-lover-tablet.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    nav {
+        background: rgba(0, 0, 0, 0.548);
+    }
+}
+
+@media (max-width: 768px) {
+    .sp-yt {
+        width: 100%;
+        left: 0;
+    }
+    .sp-yt a {
+        width: 100px;
+    }
+
+    .sp-yt .ig {
+        width: 135px;
+    }
+    
+    .sp-yt a img{
+        padding: 1em;
+    }
+}
+
+
+@media (max-width: 576px) {
+    header {
+        background: url('../img/header-lover-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

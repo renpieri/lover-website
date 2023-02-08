@@ -1,0 +1,53 @@
+.section-show {
+    margin-bottom: 5em;
+}
+
+.section-show h1 {
+    font-size: 1.5rem;
+}
+
+.section-show article {
+    margin: auto;
+    width: 60vw;
+}
+
+.carta-show {
+    display: block;
+    width: 350px;
+}
+
+.info {
+    width: 30%;
+}
+
+
+@media (max-width: 1200px) {
+    .section-show article {
+        width: 80vw;
+    }
+    .info {
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-show article {
+        width: 80vw;
+    }
+    .shows {
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+  
+}
+
+@media (max-width: 576px) {
+    .shows {
+       flex-direction: column;
+    }
+  
+}
+

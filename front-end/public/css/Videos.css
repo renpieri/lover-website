@@ -1,0 +1,22 @@
+.section-video{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.section-video h1 {
+    font-size: 1.5rem;
+}
+
+.section-video .videoEstreno {
+    width: 80vw;
+    height: calc( 80vw * 315 / 560);
+    margin: auto;
+
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+}

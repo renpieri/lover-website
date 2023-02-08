@@ -1,0 +1,67 @@
+.section-historia {
+    margin-bottom: 5em;
+    background: url('../img/cuero-wide.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-historia h1 {
+    font-size: 1.5rem;
+}
+
+
+.section-historia .historia {
+    width: 80vw;
+}
+
+@media (max-width: 1500px) {
+    .section-historia {
+        margin-bottom: 5em;
+        background: url('../img/cuero-1600.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .section-historia {
+        background: url('../img/cuero-1200.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .section-historia {
+        background: url('../img/cuero-tablet-1000.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .section-historia {
+        background: url('../img/cuero-tablet-900.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-historia {
+        background: url('../img/cuero-mobile.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
