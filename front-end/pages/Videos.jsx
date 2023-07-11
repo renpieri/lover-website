@@ -1,5 +1,5 @@
 
-import '../public/css/Videos.css'
+import '../public/css/Videos.css';
 
 function Video() {
 

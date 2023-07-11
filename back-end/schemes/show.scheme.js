@@ -1,6 +1,5 @@
-import * as yup from 'yup'
+import * as yup from 'yup';
 
-//SHOW SCHEME
 const showScheme = yup.object({
     dia: yup.date().min(new Date(), 'La fecha debe ser válida').required('El día es requerido'),
     hora: yup.string().required('La hora es requerida').trim(),

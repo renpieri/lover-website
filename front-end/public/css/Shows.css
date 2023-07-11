@@ -1,5 +1,7 @@
 .section-show {
     margin-bottom: 5em;
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,0.18539915966386555) 0%, rgba(255,0,0,0.3926820728291317) 34%, rgba(245,0,0,0.38707983193277307) 64%, rgba(0,0,0,0.17979691876750703) 100%);
 }
 
 .section-show h1 {
@@ -26,7 +28,7 @@
         width: 80vw;
     }
     .info {
-        width: 40%;
+        width: 80%;
     }
 }
 

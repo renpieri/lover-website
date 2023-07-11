@@ -1,4 +1,4 @@
-import '../public/css/Historia.css'
+import '../public/css/Historia.css';
 
 
 function Historia(){

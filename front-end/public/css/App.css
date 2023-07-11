@@ -46,17 +46,20 @@ header {
 
 @media (max-width: 1000px) {
     header {
-        background: url('../img/header-lover-tablet.jpg');
+        background: url('../img/header-lover-mobile.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
-    nav {
-        background: rgba(0, 0, 0, 0.548);
+
+    .back {
+        background: rgba(0, 0, 0, 0.568) ;
     }
 }
 
+
 @media (max-width: 768px) {
+ 
     .sp-yt {
         width: 100%;
         left: 0;

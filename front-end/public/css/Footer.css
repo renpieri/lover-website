@@ -23,11 +23,9 @@ footer form {
     align-items: center;
 }
 
-.redesUl li{
-    padding: 1em;
+.redesUl li a {
+    font-size: 2.5rem;
 }
-
-
 @media (min-width: 1201px) and (max-width: 1600px){
     footer {
         background: url('../img/footer-lover-1600.jpg');
@@ -41,7 +39,6 @@ footer form {
     footer {
         background: url('../img/footer-lover-1200.jpg');
         background-position: top;
-        background-size: contain;
         background-repeat: no-repeat;
     }
 
@@ -62,7 +59,10 @@ footer form {
         background-size: contain;
         background-repeat: no-repeat;
     }
-    
+    .info-redes {
+        flex-direction: column;
+        margin: auto;
+    }
 }
 @media (max-width: 576px){
     footer {

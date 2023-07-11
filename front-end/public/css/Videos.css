@@ -2,6 +2,14 @@
     width: 100%;
     text-align: center;
     margin-bottom: 5em;
+
+}
+.section-video figure {
+    background-image: url('../img/YOUTUBE.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em 0 2em 0;
 }
 
 .section-video h1 {
@@ -12,7 +20,6 @@
     width: 80vw;
     height: calc( 80vw * 315 / 560);
     margin: auto;
-
 }
 
 iframe {
@@ -20,3 +27,4 @@ iframe {
     width: 100%;
     height: 100%;
 }
+

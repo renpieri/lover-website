@@ -1,21 +1,21 @@
-import { useState } from 'react'
-import { BrowserRouter } from 'react-router-dom'
-import Shows from '../pages/Shows'
-import Footer from '../pages/Footer'
-import Videos from '../pages/Videos'
-import Historia from '../pages/Historia'
-import '../public/css/App.css'
-import { FiMenu } from 'react-icons/fi'
+import { useState } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import ListaShow from '../pages/ListaShow';
+import Footer from '../pages/Footer';
+import Videos from '../pages/Videos';
+import Historia from '../pages/Historia';
+import '../public/css/App.css';
+import { FiMenu } from 'react-icons/fi';
 
 function App() {
 
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   return (
      
     <BrowserRouter> 
         <header>
-          <div className='flex items-center justify-between xl:max-w-10xl xl:mx-auto max-w-full p-5 flex-wrap w-full'>
+          <div className='flex items-center justify-between xl:max-w-10xl xl:mx-auto max-w-full lg:p-5 flex-wrap w-full back p-5'>
           <a href="/"><img src="/img/logo.png" alt='Lover logo en color rojo' width='150' className='mx-10'/></a>
 
           <FiMenu className='lg:hidden block h-8 w-8 cursor-pointer text-white' onClick={() => setOpen(!open)} />
@@ -35,12 +35,9 @@ function App() {
           </div>
         </header>  
         <main>
-
           <Videos></Videos>
-          <Shows></Shows>
+          <ListaShow></ListaShow>
           <Historia></Historia>
-
-
         </main>
         <Footer/>
       </BrowserRouter>

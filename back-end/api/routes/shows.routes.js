@@ -1,8 +1,8 @@
-import express from 'express'
-import * as ShowsController from '../controller/shows.controller.js'
-import { showValido } from '../../middleware/validaciones.middleware.js'
+import express from 'express';
+import * as ShowsController from '../controller/shows.controller.js';
+import { showValido } from '../../middleware/validaciones.middleware.js';
 
-const route = express.Router()
+const route = express.Router();
 
 route.route('/api/shows')
     .get(ShowsController.traerShows)
